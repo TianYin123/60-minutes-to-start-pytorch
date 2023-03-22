@@ -8,26 +8,29 @@ To get started with pytorch easily, I conclude some keypoints of the official do
 
 ## Initialization of Tensor
 
-    In this section, you will learn how to install PyTorch and the torch.tensor library, which is a fundamental data structure in PyTorch. You will learn how to create and manipulate tensors.
+In this section, you will learn how to install PyTorch and the torch.tensor library, which is a fundamental data structure in PyTorch. You will learn how to create and manipulate tensors.
 
 ## Autograd
 
-    PyTorch's automatic differentiation engine, torch.autograd, is at the heart of neural network training. In this section, you will get a conceptual understanding of how autograd helps a neural network train.
+PyTorch's automatic differentiation engine, torch.autograd, is at the heart of neural network training. In this section, you will get a conceptual understanding of how autograd helps a neural network train.
 
 ## Neural Networks
 
-    Neural networks can be constructed using the torch.nn package. This section will cover the basics of neural network construction, including layers, activation functions, and loss functions.
+Neural networks can be constructed using the torch.nn package. This section will cover the basics of neural network construction, including layers, activation functions, and loss functions.
 
 ## Train Your Network
 
-    In this section, you will learn how to train an image classifier using PyTorch. You will perform the following steps:
+In this section, you will learn how to train an image classifier using PyTorch. You will perform the following steps:
 
-    Load and normalize the CIFAR10 training and test datasets using torchvision.
-    Define a Convolutional Neural Network (CNN).
-    Define a loss function.
-    Train the network on the training data.
-    Test the network on the test data.
-    These steps will give you a good foundation for training your own neural networks.
+Load and normalize the CIFAR10 training and test datasets using torchvision.  
+Define a Convolutional Neural Network (CNN).  
+Define a loss function.  
+Train the network on the training data.  
+Test the network on the test data.  
+These steps will give you a good foundation for training your own neural networks.  
+
+---
+
 
 This program is based on the PyTorch official guide named "Deep Learning with PyTorch: A 60 Minute Blitz" written by Yang Zongxian. You can find the detailed guide at https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html.
 
